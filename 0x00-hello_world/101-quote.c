@@ -1,8 +1,9 @@
 #include<stdio.h>
-#include<unistd.h>
+#include<stdlib.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
+ * This prints without printf and puts 
  * Return: Always 1 (Success)
  */
 
