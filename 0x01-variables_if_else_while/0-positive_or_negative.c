@@ -14,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%dis positive\n", n);
 	}
 	else if (n == 0)
 	{
@@ -22,7 +22,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		pirintf("%d is negative\n", n);
+		pirintf("%dis negative\n", n);
 	}
 	return (0);
 
