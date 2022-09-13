@@ -1,6 +1,5 @@
+#include "print_alphabet"
 #include "main.h"
-#include<stdio.h>
-#include<stdlib.h>
 
 /**
  * main - This is the main fun
@@ -16,8 +15,8 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; low++)
 	{
-		putchar(low);
-		putchar('\n');
+		_putchar(low);
+		_putchar('\n');
 	}
-	return (0);
+	
 }
