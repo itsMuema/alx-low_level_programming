@@ -3,15 +3,21 @@
 #include<stdlib.h>
 
 /**
- * print_alphabet - Check description
+ * main - This is the main fun
+ *
  * Description: It prints the alphabet in lowercase fallowed by a new line
+ *
  * Return: Nothing.
  */
 void print_alphabet(void);
-{
-	char i;
 
-	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
-	putchar('\n');
+int main(void)
+{
+	char low;
+
+	for (low = 'a'; low <= 'z'; low++)
+	{
+		putchar(low);
+		putchar('\n');
+	}
 }
