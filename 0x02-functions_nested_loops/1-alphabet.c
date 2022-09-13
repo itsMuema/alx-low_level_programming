@@ -6,16 +6,15 @@
 
 int main(void)
 {
-void print_alphabet(void);
-
-
-	char low;
-
-	for (low = 'a'; low <= 'z'; low++)
+	void print_alphabet(void);
 	{
-		putchar(low);
-		putchar('\n');
+		char low;
+
+		for (low = 'a'; low <= 'z'; low++)
+		{
+			putchar(low);
+			putchar('\n');
+		}
 	}
-
+	return (0);
 }
-
