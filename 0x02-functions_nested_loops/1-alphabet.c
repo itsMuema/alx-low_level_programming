@@ -1,19 +1,15 @@
 #include "main.h"
-#include<stdio.h>
-#include<stdlib.h>
 
 /**
- * print_alphabet - func name
- * Prints lowercase followe by a new line
- * Returns: Has no return
+ * print_alphabet - Check description
+ * Description: It prints the alphabet in lowercase fallowed by a new line
+ * Return: Nothing.
  */
 void print_alphabet(void)
 {
-	char low;
+	char i;
 
-	for (low = 'a'; low <= 'z'; low++)
-	{
-		putchar(low);
-		putchar('\n');
-	}
+	for (i = 'a'; i <= 'z'; i++)
+		_putchar(i);
+	_putchar('\n');
 }
