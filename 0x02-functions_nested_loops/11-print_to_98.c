@@ -7,12 +7,32 @@
  */
 void print_to_98(int n)
 {
-	for (n = 0; n <= 98; n++)
+	if (n <= 98)
 	{
-		_putchar(n);
-		_putchar(',');
-		_putchar(' ');
-		
+		for (; n <= 98; n++)
+		{
+			_putchar("%d", n);
+
+			if ( n == 98)
+				continue;
+			_putchar(',');
+		}
+		_putchar('\n');
+	}
+	else
+	{
+		for (; n >= 98; n--)
+		{
+			_putchar("%d", n);
+
+			if ( == 98)
+				continue;
+			_putchar(',');
+		}
+		_putchar('\n');
 	}
 }
+
+
+
 
