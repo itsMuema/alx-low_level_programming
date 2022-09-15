@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_sign - prints sign in relation with 0
- *@c: an argument
+ *@n: an arguement
  *
  *Return: 1 if > 0, 0 if == 0, -1 if < 0
  *
