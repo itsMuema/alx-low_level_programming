@@ -4,7 +4,7 @@
  *@c: character variable
  *Return: 1 if uppercase,otherwise 0
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	for (c = 'A'; c <= 'Z'; c++)
 	{
