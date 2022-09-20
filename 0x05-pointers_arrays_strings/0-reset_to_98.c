@@ -13,7 +13,7 @@ void reset_to_98(int *n)
 	*n = &i;
 
 
-	_putchar("Value of 'i':%d\n", i);
+	_putchar("Value of is :%d\n", i);
 	*n = 98;
 	_putchar("Now reset to:%d\n",i);
 	return;
