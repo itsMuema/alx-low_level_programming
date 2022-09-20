@@ -3,9 +3,13 @@
  * _strlen - print length of a string
  *@s: the string
  *
- * Return: 0
+ * Return: length
  */
 int _strlen(char *s)
 {
-	_putchar("%s\n", s);
+	int length = 0;
+
+	while(s[length] !='\0')
+		length++;
+	return (length);
 }
