@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * swap_int - function to swap two integers
  * @a: first int
