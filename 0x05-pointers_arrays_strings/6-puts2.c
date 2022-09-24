@@ -16,6 +16,6 @@ void puts2(char *str)
 	}
 	while ( i == len)
 	{
-		_putchar(str[i])
+		_putchar(str[i]);
 	}
 }
